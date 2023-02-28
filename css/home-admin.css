@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    font-family: 'Berlin Sans FB';
+}
+
+a {
+    text-decoration: none;
+}
+
+.rodape {
+    background-color: #000;
+    height: 8rem;
+    text-align: center;
+}
+
+#logo img {
+    width: 11rem;
+    text-align: center;
+}
+
+.boas-vindas {
+    text-align: center;
+    font-family: 'Berlin Sans FB';
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+button {
+    font-size: 16px;
+    position: relative;
+    margin: auto;
+    padding: 1em 2.5em 1em 2.5em;
+    border: none;
+    background: #000;
+    transition: all 0.1s linear;
+    box-shadow: 0 0.4em 0.5em rgba(0, 0, 0, 0.1);
+    width: 20rem;
+    align-items: center;
+
+}
+
+button:active {
+    transform: scale(0.1);
+}
+
+button span {
+    color: #000;
+    font-family: 'Calibri';
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+button .border {
+    position: absolute;
+    border: 0.15em solid #000;
+    transition: all 0.3s 0.08s linear;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+}
+
+button:hover .border {
+    display: block;
+}
+
+.full-rounded {
+    border-radius: 2em;
+
+}
+
+#opcoes-admin button {
+    background-color: #ED7D31;
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    height: 2.5rem;
+}
+
+.footer button {
+    background-color: #ED7D31;
+    margin-top: 2.5rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer span {
+    font-size: 1.2rem;
+    text-align: center;
+}

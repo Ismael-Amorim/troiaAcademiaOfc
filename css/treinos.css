@@ -1,0 +1,59 @@
+.treino1 {
+    width: auto;
+    margin: 0 auto;
+    padding: 0.3em;
+}
+
+
+.acao1,
+.acao2,
+.acao3 {
+    font-size: 1.2rem;
+    background-color: #FFE4B5;
+    height: 7rem;
+
+}
+
+.treino1 img {
+    width: 5.5rem;
+    float: left;
+}
+
+.treino1 input {
+    margin-right: 1rem;
+    cursor: pointer;
+    float: right;
+    vertical-align: middle;
+    position: relative;
+    transform: scale(2);
+
+}
+
+
+.acao1,
+.acao2,
+.acao3,
+span {
+    display: block;
+    text-align: center;
+    font-family: 'Berlin Sans FB';
+}
+
+.footer button {
+    background-color: #ED7D31;
+    margin-top: 1.8rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer span {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#container {
+    height: 15rem;
+    display: none;
+    overflow: scroll;
+}
