@@ -80,6 +80,7 @@ a {
     font-family: 'Calibri';
     font-size: 1rem;
     font-weight: bold;
+    width: 20rem;
 }
 
 .infos :placeholder-shown {
@@ -103,14 +104,14 @@ a {
 
 
 .treinos {
-    margin-top: 0.2rem;
+    margin: 0 auto;
     border: 0.15em solid #000;
     border-radius: 0.8rem;
     text-align: center;
     font-family: 'Calibri';
     font-size: 1rem;
     font-weight: bold;
-
+    width: 20rem;
 }
 
 .treinos :placeholder-shown {
@@ -124,14 +125,14 @@ a {
 }
 
 .fisico {
-    margin-top: 0.2rem;
+    margin: 0 auto;
     border: 0.15em solid #000;
     border-radius: 0.8rem;
     text-align: center;
     font-family: 'Calibri';
     font-size: 1rem;
     font-weight: bold;
-    text-align: center;
+    width: 20rem;
 }
 
 .fisico :placeholder-shown {
