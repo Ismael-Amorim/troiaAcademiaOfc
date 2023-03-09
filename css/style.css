@@ -1,12 +1,12 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #000;
-
+    text-align: center;
+    background: #d3d3d3;
 }
 
 #logo img {
-    width: 22rem;
+    width: 21.5rem;
     text-align: center;
 
 }
@@ -87,4 +87,18 @@ button:hover .border {
     font-weight: bold;
     text-decoration: none;
 
+}
+
+.msgAlertErroLogin span {
+    font-size: 5rem;
+    color: #fff !important;
+    background-color: #fff !important;
+    text-align: center;
+}
+
+#msgAlertErroLogin span {
+    font-size: 5rem;
+    color: #fff !important;
+    background-color: #fff !important;
+    text-align: center;
 }
